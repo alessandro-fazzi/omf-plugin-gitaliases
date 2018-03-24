@@ -78,9 +78,7 @@ function gls
   git log --oneline --decorate --graph --branches --remotes --simplify-by-decoration
 end
 
-function gt
-  "git log --oneline --decorate --graph --branches --remotes -20 --pretty=format:'%C(yellow)%h%C(red bold)%d %Creset%s %C(green)(%ar) %C(cyan)<%cn>' --date=relative"
-end
+abbr gt 'git log --oneline --decorate --graph --branches --remotes -20 --pretty=format:"%C(yellow)%h%C(red bold)%d %Creset%s %C(green)(%ar) %C(cyan)<%cn>" --date=relative'
 
 
 
