@@ -10,7 +10,7 @@ alias gcl 'git clone'
 
 alias gc 'git commit -v'
 alias gca 'git commit -v -a'
-alias gcm 'git commit -v -m ""'
+alias gcm 'git commit -v -m'
 alias gci 'git commit --interactive'
 
 alias gco 'git checkout'
