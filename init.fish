@@ -15,7 +15,8 @@ alias gci 'git commit --interactive'
 
 alias gco 'git checkout'
 
-alias ga 'git add'
+abbr ga 'git add'
+
 alias gap 'git add -p'
 alias gall 'git add .'
 
