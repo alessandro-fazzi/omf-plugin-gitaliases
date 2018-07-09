@@ -13,7 +13,7 @@ alias gca 'git commit -v -a'
 alias gcm 'git commit -v -m'
 alias gci 'git commit --interactive'
 
-alias gco 'git checkout'
+abbr gco 'git checkout'
 
 abbr ga 'git add'
 
