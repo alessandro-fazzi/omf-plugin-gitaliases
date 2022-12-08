@@ -18,6 +18,7 @@ abbr gco 'git checkout'
 abbr ga 'git add'
 
 alias gap 'git add -p'
+alias gai 'git add --interactive'
 alias gall 'git add .'
 
 alias gdi '= diff'
