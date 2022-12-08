@@ -8,10 +8,10 @@
 # shortcuts
 alias gcl 'git clone'
 
-alias gc 'git commit -v'
-alias gca 'git commit -v -a'
-alias gcm 'git commit -v -m'
-alias gci 'git commit --interactive'
+alias gc 'git commit -S -v'
+alias gca 'git commit -S -v -a'
+alias gcm 'git commit -S -v -m'
+alias gci 'git commit -S --interactive'
 
 abbr gco 'git checkout'
 
