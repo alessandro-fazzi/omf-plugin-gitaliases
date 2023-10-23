@@ -6,34 +6,20 @@
 # * $dependencies  package dependencies
 
 # shortcuts
-alias gcl 'git clone'
-
 alias gc 'git commit -S -v'
 alias gca 'git commit -S -v -a'
 alias gcm 'git commit -S -v -m'
 alias gci 'git commit -S --interactive'
-
 abbr gco 'git checkout'
-
 abbr ga 'git add'
-
 alias gap 'git add -p'
 alias gai 'git add --interactive'
 alias gall 'git add .'
 
-alias gdi '= diff'
-alias gdic '= diff --cached'
-
-alias gus 'git reset HEAD'
-
-alias gm 'git merge'
+alias gdi 'git diff'
+alias gdic 'git diff --cached'
 alias gst 'git status'
-
-
-
 alias gw 'git whatchanged'
-
-alias gm 'git merge'
 
 alias gpf 'git push --force-with-lease'
 
@@ -66,7 +52,7 @@ alias grmignored 'git rm --cached (git ls-files -i --exclude-from=.gitignore)'
 # log
 # These are functions because the is no sense in expanding
 # such long unreadeable commands
-alias gl 'git log --oneline --decorate --graph --branches --remotes -20'
+alias gl 'git log --oneline --decorate'
 alias gll 'git log --oneline --decorate --stat --graph'
 alias gls 'git log --oneline --decorate --graph --branches --remotes --simplify-by-decoration'
 alias gt 'git log --oneline --decorate --graph --branches --remotes -20 --pretty=format:"%C(yellow)%h%C(red bold)%d %Creset%s %C(green)(%ar) %C(cyan)<%cn>" --date=relative'
